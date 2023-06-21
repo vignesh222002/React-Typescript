@@ -7,6 +7,7 @@ import ReducerCounter from './Components/ReducerCounter';
 import ComponentPropPage from './Components/componentProp/ComponentPropPage';
 import Profile from './Components/componentProp/Profile';
 import RandomNumber from './Components/restrictingProp/RandomNumber';
+import TemplateLiterals from './Components/templateLiteral_Excludes/TemplateLiterals';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       {/* <ReducerCounter /> */}
       {/* <ComponentPropPage isLogged={true} Component={Profile} /> */}
       {/* <RandomNumber value={0} isZero /> */}
+      {/* <TemplateLiterals position='center' /> */}
     </div>
   );
 }
